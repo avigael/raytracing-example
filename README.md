@@ -7,18 +7,31 @@ This is a Python program written using Pygame that uses the mathmatical concept 
 ![Screenshot](https://raw.githubusercontent.com/avigael/raytracing-example/main/screenshot/screenshot.png "Screenshot")
 
 ## Running the Program
-**Optional:** Create a virtual enviroment
+
+**Download Repository**
+
 ```
 $ git clone https://github.com/avigael/raytracing-example.git
 $ cd raytracing-example
+```
+
+**Optional:** Create a virtual enviroment
+
+*Note: Only avaliable in [Python 3.3](https://docs.python.org/3/library/venv.html "Python")* and above
+
+```
 $ python -m venv venv
 $ source venv/bin/activate
 ```
+
 **Install Requirements:**
+
 ```
 $ pip install -r requirements.txt
 ```
+
 **Run the Program**
+
 ```
 $ python raytracing.py
 ```
